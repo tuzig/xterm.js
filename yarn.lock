@@ -4730,11 +4730,6 @@ xterm-benchmark@^0.2.1:
     tslint "^6.1.3"
     typescript "^4.2.3"
 
-xterm-headless@^4.14.1:
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/xterm-headless/-/xterm-headless-4.14.1.tgz#ba057e7e3bb3317b6e0c1d273e2732314852a680"
-  integrity sha512-YKOTnBbrgLfN4FncSNCBa6Uow3TozayuNpkuiSmx8cGw9qdVlT9FAhh7VtDAD6NB2zuWYupzFpgpitvq+pZuQw==
-
 y18n@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
