@@ -135,11 +135,13 @@ export class SelectionService extends Disposable implements ISelectionService {
     // Init listeners
     this._mouseMoveListener = event => this._onMouseMove(event as MouseEvent);
     this._mouseUpListener = event => this._onMouseUp(event as MouseEvent);
+    /*
     this._coreService.onUserInput(() => {
       if (this.hasSelection) {
         this.clearSelection();
       }
     });
+    */
     this._trimListener = this._bufferService.buffer.lines.onTrim(amount => this._onTrim(amount));
     this.register(this._bufferService.buffers.onBufferActivate(e => this._onBufferActivate(e)));
 
