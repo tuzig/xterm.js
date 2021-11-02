@@ -1,7 +1,7 @@
 {
   "name": "xterm",
   "description": "Full xterm terminal, in your browser",
-  "version": "4.15.100",
+  "version": "4.15.101",
   "main": "lib/xterm.js",
   "style": "css/xterm.css",
   "types": "typings/xterm.d.ts",
@@ -71,8 +71,5 @@
     "webpack-cli": "^4.9.1",
     "ws": "^8.2.3",
     "xterm-benchmark": "^0.3.0"
-  },
-  "dependencies": {
-    "xterm-headless": "^4.14.1"
   }
 }
